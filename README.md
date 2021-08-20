@@ -12,7 +12,8 @@
 ###### Todos os arquivos contém código escrito e revisado por mim com base no acompanhamento das aulas
 
 ### Dicas:
-> * Execute npm start para iniciar o servidor node
+> * Execute "npm i" para instalar as dependências
+> * Execute "npm start" para iniciar o servidor node
 
 
 
