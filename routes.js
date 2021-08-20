@@ -3,7 +3,7 @@ const routes = express.Router();
 
 
 routes.get('/', function(res, res) {
-    return res.setEncoding("ok");
+    return res.send("ok");
 })
 
 module.exports = routes;
