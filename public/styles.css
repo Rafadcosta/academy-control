@@ -2,6 +2,7 @@
 
 :root {
     --pc: #63E5F8;
+    --sc: #f7df1e;
 }
 
 *{
@@ -95,7 +96,7 @@ header {
 }
 
 .details h3 {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 .details .item {
@@ -103,7 +104,19 @@ header {
     margin-bottom: 12px;
 }
 
+.details .item div{
+    margin-bottom: 4px;
+}
+
 .details .item div:nth-child(1){
     color: #26cae4;
     font-size: .9em;
+}
+
+.details .item div:nth-child(2) span{
+    padding: 2px 8px;
+    background-color: #ffb92c;
+    border-radius: 16px;
+    margin-right: 4px;
+    font-size: 12px;
 }
