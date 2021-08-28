@@ -71,7 +71,6 @@ header {
 .card {
     background-color: white;
     width: 800px;
-    height: 400px;
     margin: 45px auto;
     border-radius: 10px;
     display: grid;
