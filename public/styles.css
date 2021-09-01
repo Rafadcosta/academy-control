@@ -119,3 +119,32 @@ header {
     margin-right: 4px;
     font-size: 12px;
 }
+
+/* Form */
+
+input{
+    width: 100%;
+    outline: none;
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    width: initial;
+    margin-right: 5px;
+}
+
+input::placeholder{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+button[type="submit"]{
+    padding: 10px 32px;
+    background-color: var(--pc);
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
+}
